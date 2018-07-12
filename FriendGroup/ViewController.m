@@ -20,9 +20,7 @@
      self.title = @"雪晟";
     
 }
-//-(UIRectEdge)edgesForExtendedLayout{
-//    return UIRectEdgeNone;
-//}
+
 - (IBAction)enter:(id)sender {
     FriendGroupController *groupVc= [[FriendGroupController alloc]init];
     [self.navigationController pushViewController:groupVc animated:YES];
